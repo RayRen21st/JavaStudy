@@ -2,21 +2,18 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.rr.study</groupId>
-  <artifactId>j2se</artifactId>
-  <packaging>pom</packaging>
+  <groupId>com.rr.study.j2se</groupId>
+  <artifactId>regex</artifactId>
+  <packaging>jar</packaging>
+
   <parent>
-    <groupId>com.rr</groupId>
-    <artifactId>study</artifactId>
+    <groupId>com.rr.study</groupId>
+    <artifactId>j2se</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <name>J2SE Study</name>
+  <name>regex test and example</name>
   <url>http://www.rr.com/projects/javastudy</url>
   
-  <modules>
-    <module>zip</module>
-    <module>regex</module>
-  </modules>
 
 </project>
