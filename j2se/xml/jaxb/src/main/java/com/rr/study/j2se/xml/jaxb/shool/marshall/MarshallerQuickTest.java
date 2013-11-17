@@ -40,7 +40,7 @@ public class MarshallerQuickTest {
         
         ObjectFactory factory = new ObjectFactory();
         SchoolType school = factory.createSchoolType();
-        school.setName("aaaa\n\rbbbb");
+        school.setName("aaaa\n\r" + String.valueOf((char)0x10) + "bbbb");
         GradeType grade = factory.createGradeType();
         grade.setGradeNumber(1);
         school.setGrade(grade);
