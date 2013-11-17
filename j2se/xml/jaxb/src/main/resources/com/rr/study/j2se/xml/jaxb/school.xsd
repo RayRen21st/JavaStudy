@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.rr.com/study/j2se/xml/jaxb/school" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.rr.com/study/j2se/xml/jaxb/school">
+
+    <element name="School" type="tns:SchoolType"></element>
+    
+    <complexType name="SchoolType">
+      <sequence>
+            <element name="name" type="string"></element>
+            <element name="Grade" type="tns:GradeType"></element>
+      </sequence>
+    </complexType>
+
+    <complexType name="GradeType">
+      <sequence>
+        <element name="GradeNumber" type="int"></element>
+      </sequence>
+    </complexType>
+</schema>

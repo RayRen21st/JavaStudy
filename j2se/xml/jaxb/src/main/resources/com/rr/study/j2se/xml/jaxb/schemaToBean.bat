@@ -1,0 +1,1 @@
+xjc -p com.rr.study.j2se.xml.jaxb -d ../../../../../../../../../src/main/java/com.rr.study.j2se.xml.jaxb.school.bean school.xsd

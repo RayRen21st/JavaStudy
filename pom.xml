@@ -9,6 +9,10 @@
   <name>Java Study</name>
   <url>http://www.rr.com/projects/javastudy</url>
 
+  <properties>
+    <java.home>${env.JAVA_HOME}</java.home>
+  </properties>
+
   <modules>
     <module>j2se</module>
   </modules>
